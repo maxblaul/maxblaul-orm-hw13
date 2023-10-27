@@ -12,7 +12,8 @@ Tag.init(
       // 'id' column is an integer, cannot be null
       type: DataTypes.INTEGER,
       allowNull: false,
-      primaryKey: true
+      primaryKey: true,
+      autoIncrement: true
     },
     // 'tag_name' is a string column
     tag_name: {
